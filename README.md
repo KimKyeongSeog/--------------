@@ -1,1 +1,1 @@
-# Vanila_JS
+# Vanila_JS Practice + Portfolio Single Page

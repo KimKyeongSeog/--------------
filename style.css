@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root-font {
+    font-size: 62.5%;
+}
+
+section {
+    background-color: rosybrown;
+    height: 95vh;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 6vw;
+    height: 8vh;
+    background-color: chocolate;
+}
+
+.header-title {
+    font-size: 2rem;
+}
+
+.header-list {
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+    padding: 0;
+}
+
+.header-btn {
+    text-decoration: none;
+    color: black;
+}
+
+.hover-list {
+    width: 10vw;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    background-color: blue;
+    left: 45%;
+    bottom: 0%;
+    margin-bottom: 0.5vh;
+}
+
+.hover-list a {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-list a:hover,
+.hover-list a:active {
+    background-color: #aaa;
+    transition-duration: 1000ms;
+}
+
+.top_btn {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    background-color: white;
+    border-radius: 9999px;
+    text-decoration: none;
+    color: black
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.about_me-title {
+    font-size: 2rem;
+}
+
+.about_me-main {
+    height: 80vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+}
+
+.about_me-pr {
+    width: 30%;
+    border-right: black dashed 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.about_me-pr-short_text {
+    width: 80%;
+    height: 40%;
+    border: solid 2px;
+    margin-top: 5vh;
+    border-radius: 20px;
+    padding-top: 3vh;
+}
+
+.about_me-pr-pics {
+    width: 9rem;
+    height: 11rem;
+    background-color: black;
+
+}
+
+.about_me-intro {
+    width: 70%;
+    height: full;
+    padding: 5vh 2vw;
+}
+
+.about_me-intro-title {
+    height: 7%;
+    font-size: 1.5rem;
+}
+
+.about_me-intro-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+}
+
+.about_me-intro-main-items {
+    width: 30%;
+    height: 50%;
+
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.about_me-image {
+    background-color: blue;
+    height: 6rem;
+    width: 6rem
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.skills-title {
+    height: 7%;
+    font-size: 1.5rem;
+}
+
+.skills-main {
+    height: 80vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-main-items {
+    height: 90%;
+    width: 30%;
+    background-color: beige;
+}
+
+footer {
+    width: full;
+    height: 8vh;
+    background-color: black;
+}
+
+footer div {
+    color: white;
+    text-align: center;
+}
